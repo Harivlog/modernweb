@@ -1,0 +1,42 @@
+.sec-posibility-img img{
+   width: 90%;
+   height: 450px;
+}
+.sec-possibility-content-para{
+    color : #FF8A71;
+    font-weight :500;
+font-size :16px;
+Line-height :30px;
+font-family: var(--font-family);
+}
+.sec-possibility-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 2rem;
+}
+.sec-possibility-content h1{
+    padding-top: 0.5rem;
+}
+.sec-possibility-content .p{
+    padding: 1rem 0;
+}
+.sec-possibility-content .istP{
+    color: #71E5FF;
+}
+@media screen and (min-width:2000px){
+    .sec-posibility-img img{
+        width: 90%;
+        height: 800px;
+     }
+}
+@media screen and (max-width:1050px){
+    .sec-posibility{
+        gap: 5rem;
+    }
+    .sec-posibility-img img{
+        width: 100%;
+        height: 530px;
+     }
+}

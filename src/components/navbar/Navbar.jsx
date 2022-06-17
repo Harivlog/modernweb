@@ -2,16 +2,19 @@ import React, { useState } from 'react'
 import './navbar.css'
 import { RiCloseLine, RiMenu3Line } from 'react-icons/ri'
 import logo from '../../assets/logo.svg'
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const acher = (e)=>{
+    e.preventDefault()
+  }
   const Menu = () => {
     <>
-      <li><a href="/">Home</a></li>
-      <li><a href="/">What is GPT?</a></li>
-      <li><a href="/">Open AI</a></li>
-      <li><a href="/">Case Studies</a></li>
-      <li><a href="/">Library</a></li>
+      <li><a onClick={(e)=> e.preventDefault()} href="#home">Home</a></li>
+      <li><a onClick={(e)=> e.preventDefault()} href="#gpt">What is GPT?</a></li>
+      <li><Link onClick={acher} to="#gpt">Open AI</Link></li>
+      <li><a onClick={acher} href="#cstudy">Case Studies</a></li>
+      <li><a onClick={acher} href="#library">Library</a></li>
     </>
   }
 

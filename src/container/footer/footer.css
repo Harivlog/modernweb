@@ -1,0 +1,70 @@
+.sec-footer{
+    background: var(--color-footer);
+    flex-direction: column;
+}
+.footer-header{
+    flex-direction: column;
+    width: 60%;
+    /* background: #000; */
+}
+.footer-header-btn{
+    margin-top: 1.4rem;
+}
+.footer-header-btn button{
+    box-sizing: border-box;
+  cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+width: 218px;
+height: 65px;
+border: 1px solid wheat;
+background-color: transparent;
+color: #fff;
+}
+.footer-main-wrap{
+    margin: 6rem 0;
+}
+.footer-logo p{
+    margin-top: 1.2rem;
+    padding-right: 1rem;
+}
+.footer-item-links h4{
+     color: #fff;
+     font-family: var(--font-family);
+     margin-bottom: 1.7rem;
+}
+.footer-item-links li{
+    color: #fff;
+    cursor: pointer;
+    margin: 0.7rem 0;
+    font-family: var(--font-family);
+    font-size: 15px;
+    font-weight: normal;
+
+}
+.footer-copy-right p{
+    color: #fff;
+    font-style: 17px;
+    font-weight: 600;
+    font-family: var(--font-family);
+}
+@media screen and (max-width:1120px){
+    .footer-header{
+        flex-direction: column;
+        width: 80%;
+        /* background: #000; */
+    }
+}
+@media screen and (max-width:900px){
+    .footer-header{
+        flex-direction: column;
+        width: 100%;
+        /* background: #000; */
+    }
+}
+@media screen and (max-width:620px){
+    .footer-header h1{
+        font-size: 35px;
+    }
+}

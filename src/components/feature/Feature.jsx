@@ -1,8 +1,13 @@
 import React from 'react'
 import './feature.css'
-const Feature = () => {
+const Feature = (props) => {
   return (
-    <div>feature</div>
+    <div className='feature'>
+      <div className="feature-heading">
+      <h2>{props.dta}</h2>
+        
+        </div>      
+      </div>
   )
 }
 

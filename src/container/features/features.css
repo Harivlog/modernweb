@@ -1,0 +1,22 @@
+
+.sec__feature-left{
+    padding-right: 2rem;
+}
+.sec__feature-left h2{
+   color: wheat;
+   font-size: 29px;
+}
+.sec__feature-left p{
+    padding: 1.3rem 0;
+}
+.sec__features-para{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.sec__feature-center{
+    padding: 0 2rem;
+}
+.sec__feature-center h3{
+    font-size: 1px;
+}

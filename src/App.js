@@ -1,7 +1,12 @@
 import './App.css';
 import { Brand, Cta, Navbar } from './components';
 import { Blog, Features, Footer, Header, Possibilities, WhatGPT } from './container';
-
+import {
+  BrowserRouter,
+  
+  Routes,
+  Route,
+} from "react-router-dom";
 function App() {
   return (
     <>
@@ -15,7 +20,9 @@ function App() {
       <Possibilities />
       <Cta />
       <Blog />
-      <Footer />
+
+      
+  <Footer />
     </>
   );
 }

@@ -1,12 +1,12 @@
 import React from 'react'
 import './header.css'
 import people from '../../assets/people.png'
-import Ai from '../../assets/ai.png'
+import Ai from '../../assets/ai.jpg'
 
 const Header = () => {
   return (
     <>
-      <section className="sec-header grid_two__column section-padding" id='home'>
+      <section className="sec-header grid_two__column section-padding" id='./home'>
          <div className="sec__header-left">
           <div className="sec_header-left-wrap">
           <h1 className='main__heading'>
