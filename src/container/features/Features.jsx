@@ -3,7 +3,7 @@ import { Feature } from '../../components'
 import './features.css'
 const Features = () => {
   return (
-    <section className="sec__feature section-padding grid_three__column">
+    <section className="sec__feature section-padding grid_three__column" id='ai'>
         <div className="sec__feature-left">
           <h2 className='secnd__heading'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h2>
           <p className='para'>Request Early Access to Get Started</p>

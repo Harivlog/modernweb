@@ -11,9 +11,9 @@ const Navbar = () => {
   const Menu = () => {
     <>
       <li><a onClick={(e)=> e.preventDefault()} href="#home">Home</a></li>
-      <li><a onClick={(e)=> e.preventDefault()} href="#gpt">What is GPT?</a></li>
-      <li><Link onClick={acher} to="#gpt">Open AI</Link></li>
-      <li><a onClick={acher} href="#cstudy">Case Studies</a></li>
+      <li><a onClick={(e)=> e.preventDefault()} href={`/app/gpt`}>What is GPT?</a></li>
+      <li><Link  onClick={acher} >Open AI</Link></li>
+      <li><a onClick={acher} href="#ai">Case Studies</a></li>
       <li><a onClick={acher} href="#library">Library</a></li>
     </>
   }
