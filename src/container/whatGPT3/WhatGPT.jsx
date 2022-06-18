@@ -4,7 +4,7 @@ import './whatGPT.css'
 const WhatGPT = () => {
   return (
     <>
-    <section className="sec_what_gpt3 section-padding" id="./gpt">
+    <section className="sec_what_gpt3 section-padding" id="gpt">
       <div className='section-padding what__gpt3-wrap'>
         <div className="what__gpt3-define " >
           <div className="">

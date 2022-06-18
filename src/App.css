@@ -81,6 +81,8 @@ line-height: 45px;
 }
 body{
   background: var(--color-bg);
+  scroll-behavior: smooth;
+
 }
 
 .gradient__text{
