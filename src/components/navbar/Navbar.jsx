@@ -5,30 +5,20 @@ import logo from '../../assets/logo.svg'
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const acher = (e)=>{
-    e.preventDefault()
-  }
-  const Menu = () => {
-    <>
-      <li><a onClick={(e)=> e.preventDefault()} href="#home">Home</a></li>
-      <li><a onClick={(e)=> e.preventDefault()} href={`/app/gpt`}>What is GPT?</a></li>
-      <li><Link  onClick={acher} >Open AI</Link></li>
-      <li><a onClick={acher} href="#ai">Case Studies</a></li>
-      <li><a onClick={acher} href="#library">Library</a></li>
-    </>
-  }
+  
+
 
   const [toggle, settoggle] = useState(false)
   return (
     <>
       <nav className='navbar'>
-        <div className="nav__link flex__center">
+        <div  className="nav__link flex__center">
           <div className='nav_logo'>
             <img src={logo} alt="logo" />
           </div>
           <ul className='flex__center'>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">What is GPT?</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gpt">What is GPT?</a></li>
             <li><a href="/">Open AI</a></li>
             <li><a href="/">Case Studies</a></li>
             <li><a href="/">Library</a></li>
